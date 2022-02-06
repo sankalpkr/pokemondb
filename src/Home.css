@@ -52,6 +52,7 @@ background-color: steelblue;
 
 #body{
   background-color: cadetblue;
+  display: flex;
 }
 .abc{
   height:150px;
@@ -99,4 +100,38 @@ tr,td{
   margin : 0px;
   color: #FF5403;
   text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+}
+
+#content{
+  flex:3;
+}
+
+aside{
+  margin: 25px;
+  flex:1;
+  margin-top: 100px;
+}
+footer{
+  background-color: #FF5403;
+  color: palegreen;
+}
+hr{
+  width: 100%;
+  background-color: #000;
+  height: 20px;
+}
+
+#simg{
+  height:300px;
+    width:300px;
+    border:5px solid red;
+    border-radius: 10px;
+}
+
+#a{
+  color: rgb(92, 8, 92);
+}
+
+#b{
+  color: red;
 }

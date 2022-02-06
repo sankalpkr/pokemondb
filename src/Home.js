@@ -1,7 +1,9 @@
 import React from "react";
 import "./Home.css";
 function Home(){
-    return( <div id = "body">
+    return( <div>
+            <div id = "body">
+            <div id = "content">
             <br />
             <h1 class = "inset">SOME POPULAR POKEMONS</h1>
             <br />
@@ -133,7 +135,39 @@ function Home(){
 
           </tbody>
           </table>
-        
+          <br/>
+        </div>
+        <aside>
+          <h1 class = "inset" id = "a">FEATURED</h1>
+          <br/>
+          <h1 class = "inset" id = "b">
+          Detective
+          <br/>
+          Pikachu
+          </h1>
+          <br/>
+        <img class = "abc" id = "simg" src="https://i.guim.co.uk/img/media/dd703cd39013271a45bc199fae6aa1ddad72faaf/0_0_2000_1200/master/2000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=178a9434c272d5a067353f57a30f58ed" alt ="Pikachu"></img>
+        <br/>
+          <p>
+          Pokémon Detective Pikachu[c] is a 2019 3D live-action/computer-animated mystery film directed by Rob Letterman. Based on the Pokémon franchise, the film is a loose adaptation of the 2016 video game Detective Pikachu.[6] It was written by Letterman, Dan Hernandez, Benji Samit and Derek Connolly, from a story by Hernandez, Samit and Nicole Perlman, and produced by Legendary Pictures and Toho. It was the first live-action Pokémon film[7] and the first live-action film based on a Nintendo game property since Super Mario Bros. (1993).
+
+Ryan Reynolds stars as the voice and facial motion capture of Pikachu, with Justice Smith, Kathryn Newton, Suki Waterhouse, Omar Chaparro, Chris Geere, Ken Watanabe and Bill Nighy in live-action roles. The plot follows a former Pokémon trainer Tim Goodman and the Pokémon creatures as they attempt to solve the mysterious disappearance of Tim's father, Harry.
+
+Filming took place from January to May 2018 in Colorado, England and Scotland. Detective Pikachu was released in Japan on May 3, 2019[8][9] and in the United States on May 10, 2019, distributed by Warner Bros. Pictures in RealD 3D, Dolby Cinema, IMAX, 4DX, and ScreenX formats.[10] It is the first Pokémon film distributed theatrically in the United States since Pokémon Heroes (2003) and the first distributed by Warner Bros. since Pokémon 3 (2001). The film received mixed reviews, with praise as a video game adaptation that would appeal to fans. It made a worldwide gross of $433 million. It is the second highest-grossing video game film adaptation behind Warcraft, also produced by Legendary Pictures.
+          </p>
+        </aside>
+        <br/>
+        </div>
+        <hr/>
+        <footer>
+        <br/>
+        CREATED BY - SANKALP KUMAR
+        <br/>
+        CONTACT EMAIL - sankalp042@gmail.com
+        <br/>
+         &nbsp;
+      </footer>
+      
         </div>
     )
 }
