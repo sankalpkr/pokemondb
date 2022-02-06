@@ -2,7 +2,7 @@ import React from "react";
 import "./Home.css";
 function Home(){
     return( <div>
-            <div id = "body">
+            <div id = "body1">
             <div id = "content">
             <br />
             <h1 class = "inset">SOME POPULAR POKEMONS</h1>

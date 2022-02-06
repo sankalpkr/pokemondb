@@ -52,8 +52,12 @@ background-color: steelblue;
 
 #body{
   background-color: cadetblue;
-  display: flex;
 }
+#body1{
+  display: flex;
+  background-color: cadetblue;
+}
+
 .abc{
   height:150px;
     width:250px;
